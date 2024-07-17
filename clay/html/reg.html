@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registraion From</h1>
+    <form>
+        <div>
+            <h2>Name</h2>
+            <label for="name"> first name </label> 
+            <input type="text" id="name" required> 
+            <label for="mname"> middle name </label>
+            <input type="text" id="mname" >
+            <label for="2name"> second name </label>
+            <input type="text" id="2name" required>
+        </div>
+        <div>
+            <h2>Date of birth</h2>
+            <label for="DOB"> DOB </label> 
+            <input type="date" id="age" required> 
+        </div>
+        <div>
+          
+            <label><h2>Gender</h2></label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="lgbtq+">
+            <label for="other">other</label><br>
+        </div>
+        <div>
+            
+            <legend><h2>Job</h2></legend>
+
+            <label for="checkbox1">Software developer</label>
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox2">Data Science</label>
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox3">ML engg</label>
+            <input type="checkbox" id="checkbox3"><br>
+        </div>
+        <div>
+            <h2>
+                Citizen of india
+            </h2>
+            <select id="citizenship" name="citizenship">
+                <option>Please Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+    
+        </div>
+        <div>
+            <h2>Contact information</h2>
+            <label for="phno"> Phone No. </label> 
+            <input type="number" id="phno" required> 
+            <label for="mail"> Mail </label>
+            <input type="email" id="mail" required><br><br>
+        </div>
+        <div>
+            <label for="add"><h2>Address</h2></label><br>
+            <textarea name="add" id="add" cols="30" rows="10"></textarea><br><br>
+        </div>
+        <div>
+            <label><h2>Emergency Contact</h2></label>
+            <h3>Name</h3>
+            <label for="name"> first name </label> 
+            <input type="text" id="name" required> 
+            <label for="mname"> second name </label>
+            <input type="text" id="mname" required>
+            <label for="2name"><b>Relationship</b></label>
+            <input type="text" id="2name" required>
+            <h3>Contact information</h3>
+            <label for="phno"> Phone No. </label> 
+            <input type="number" id="phno" required> 
+            <label for="mail"> Mail </label>
+            <input type="email" id="mail" required><br><br>
+
+        </div>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
